@@ -1,0 +1,162 @@
+.sidebar {
+  background-color: var(--neutral-800);
+  width: 260px;
+}
+
+.sidebar .div {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 260px;
+}
+
+.sidebar .frame-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px 30px;
+  position: relative;
+  width: 100%;
+}
+
+.sidebar .div-2 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--neutral-200);
+  border-radius: 5px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 5px;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.sidebar .u-plus {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.sidebar .text-wrapper {
+  color: var(--neutral-900);
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.sidebar .div-3 {
+  align-items: center;
+  align-self: stretch;
+  border-color: #171717;
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 15px 30px;
+  position: relative;
+  width: 100%;
+}
+
+.sidebar .div-4 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 5px;
+  position: relative;
+}
+
+.sidebar .darhboard {
+  height: 18px;
+  position: relative;
+  width: 18px;
+}
+
+.sidebar .rectangle {
+  border: 2px solid;
+  border-color: #ffffff;
+  border-radius: 1px;
+  height: 6px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 6px;
+}
+
+.sidebar .rectangle-2 {
+  border: 2px solid;
+  border-color: #ffffff;
+  border-radius: 1px;
+  height: 6px;
+  left: 2px;
+  position: absolute;
+  top: 10px;
+  width: 6px;
+}
+
+.sidebar .rectangle-3 {
+  border: 2px solid;
+  border-color: #ffffff;
+  border-radius: 1px;
+  height: 6px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 6px;
+}
+
+.sidebar .rectangle-4 {
+  border: 2px solid;
+  border-color: #ffffff;
+  border-radius: 1px;
+  height: 6px;
+  left: 10px;
+  position: absolute;
+  top: 2px;
+  width: 6px;
+}
+
+.sidebar .text-wrapper-2 {
+  color: var(--white);
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.sidebar .div-5 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0px 0px 15px 50px;
+  position: relative;
+  width: 100%;
+}
+
+.sidebar .text-wrapper-3 {
+  color: var(--white);
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}

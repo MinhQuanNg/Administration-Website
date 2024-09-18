@@ -1,0 +1,337 @@
+.register-screen {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.register-screen .group-wrapper {
+  background-color: #ffffff;
+  height: 819px;
+  width: 2000px;
+}
+
+.register-screen .group {
+  height: 819px;
+  position: relative;
+}
+
+.register-screen .create-an-account {
+  background-color: #ffffff;
+  height: 748px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 71px;
+  width: 1072px;
+}
+
+.register-screen .overlap {
+  height: 770px;
+  position: relative;
+  top: 1px;
+}
+
+.register-screen .image-wrapper {
+  height: 770px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 2000px;
+}
+
+.register-screen .image {
+  background-color: #ffffff;
+  height: 770px;
+  overflow: hidden;
+}
+
+.register-screen .overlap-group {
+  height: 770px;
+  position: relative;
+  width: 2000px;
+}
+
+.register-screen .rectangle {
+  height: 747px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 2000px;
+}
+
+.register-screen .backdrop {
+  -webkit-backdrop-filter: blur(124px) brightness(100%);
+  backdrop-filter: blur(124px) brightness(100%);
+  background-color: #11111159;
+  height: 770px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 2000px;
+}
+
+.register-screen .create-an-account-wrapper {
+  height: 535px;
+  left: 221px;
+  position: absolute;
+  top: 95px;
+  width: 630px;
+}
+
+.register-screen .frame-wrapper {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 24px;
+  display: inline-flex;
+  gap: 10px;
+  height: 535px;
+  overflow: hidden;
+  padding: 48px;
+  position: relative;
+}
+
+.register-screen .frame {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  height: 447px;
+  margin-bottom: -8px;
+  position: relative;
+}
+
+.register-screen .div-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 120px;
+  justify-content: space-around;
+  position: relative;
+  width: 100%;
+}
+
+.register-screen .text-wrapper {
+  color: #333333;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 283px;
+}
+
+.register-screen .div {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: 534px;
+}
+
+.register-screen .frame-2 {
+  align-self: stretch;
+  height: 27px;
+  position: relative;
+  width: 100%;
+}
+
+.register-screen .label {
+  color: #666666;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: -1px;
+}
+
+.register-screen .text-field {
+  align-self: stretch;
+  border: 1px solid;
+  border-color: #66666659;
+  border-radius: 12px;
+  height: 56px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.register-screen .inputs {
+  align-items: center;
+  display: inline-flex;
+}
+
+.register-screen .p {
+  color: #66666699;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.register-screen .icons {
+  height: 24px;
+  left: 486px;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.register-screen .password-hide-see {
+  height: 27px;
+  left: 452px;
+  position: absolute;
+  top: 0;
+  width: 75px;
+}
+
+.register-screen .icon {
+  top: 3px !important;
+}
+
+.register-screen .text-wrapper-2 {
+  color: #666666cc;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 0;
+}
+
+.register-screen .text-field-2 {
+  align-self: stretch;
+  border: 1px solid;
+  border-color: #66666659;
+  border-radius: 12px;
+  height: 56px;
+  position: relative;
+  width: 100%;
+}
+
+.register-screen .error-message {
+  color: #666666;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.register-screen .admin {
+  align-items: center;
+  display: flex;
+  height: 40px;
+  padding: 8px 8px 8px 0px;
+  position: relative;
+  width: fit-content;
+}
+
+.register-screen .check-box {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.register-screen .text-wrapper-3 {
+  color: #333333;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: -13px;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.register-screen .create {
+  background-color: #111111;
+  border-radius: 40px;
+  height: 64px;
+  opacity: 0.25;
+  overflow: hidden;
+  position: relative;
+  width: 534px;
+}
+
+.register-screen .frame-3 {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  left: 162px;
+  position: relative;
+  top: 15px;
+}
+
+.register-screen .sign-up {
+  color: #ffffff;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.register-screen .header-nav {
+  background-color: #ffffff;
+  height: 71px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 1072px;
+}
+
+.register-screen .logo {
+  height: 40px;
+  left: 516px;
+  object-fit: cover;
+  position: absolute;
+  top: 15px;
+  width: 40px;
+}
+
+.register-screen .divider {
+  background-color: #66666640;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 70px;
+  width: 1440px;
+}
+
+.register-screen .img {
+  height: 39px;
+  left: 41px;
+  position: absolute;
+  top: 17px;
+  width: 42px;
+}
